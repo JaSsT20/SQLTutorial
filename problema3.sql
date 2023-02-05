@@ -12,3 +12,5 @@ exec sp_tables @table_owner='dbo';
 
 exec sp_columns agenda;
 
+insert into agenda (apellido, nombre, domicilio, telefono)
+values ('Moreno','Alberto','Colon 123','4234567');
