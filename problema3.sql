@@ -17,3 +17,7 @@ values ('Moreno','Alberto','Colon 123','4234567');
 
 insert into agenda (apellido,nombre, domicilio, telefono)
 values ('Torres','Juan','Avellaneda 135','4458787');
+
+select * from agenda;
+
+drop table agenda;
