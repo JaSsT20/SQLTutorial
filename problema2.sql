@@ -14,3 +14,6 @@ create table libros(
   autor varchar(30),
   editorial varchar(15)
  );
+
+  exec sp_tables @table_owner='dbo';
+
