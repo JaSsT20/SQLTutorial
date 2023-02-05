@@ -1,7 +1,7 @@
-if object_id('agenda') is not null
-  drop table agenda;
+IF OBJECT_ID('agenda') is not null
+  DROP TABLE agenda;
 
-create table agenda
+CREATE TABLE agenda
 (
 	apellido varchar(30),
 	nombre varchar(20),
@@ -9,6 +9,8 @@ create table agenda
 	telefono varchar(11)
  );
 
-exec sp_tables @table_owner='dbo';
+EXEC SP_TABLES @table_owner='dbo';
 
-exec sp_columns agenda;
+EXEC SP_COLUMNS agenda;
+
+DROP TABLE agenda;
