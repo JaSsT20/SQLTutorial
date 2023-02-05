@@ -15,5 +15,5 @@ create table libros(
   editorial varchar(15)
  );
 
-  exec sp_tables @table_owner='dbo';
-
+exec sp_tables @table_owner='dbo';
+exec sp_columns libros;
