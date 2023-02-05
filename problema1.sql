@@ -14,3 +14,5 @@ EXEC SP_TABLES @table_owner='dbo';
 EXEC SP_COLUMNS agenda;
 
 DROP TABLE agenda;
+
+DROP TABLE agenda;
