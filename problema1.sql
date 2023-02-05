@@ -1,7 +1,7 @@
 if object_id('agenda') is not null
   drop table agenda;
 
-create table /agenda
+create table agenda
 (
 	apellido varchar(30),
 	nombre varchar(20),
