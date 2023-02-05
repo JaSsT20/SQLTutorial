@@ -17,3 +17,6 @@ create table libros(
 
 exec sp_tables @table_owner='dbo';
 exec sp_columns libros;
+
+drop table libros;
+drop table libros;
