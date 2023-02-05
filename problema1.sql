@@ -9,4 +9,6 @@ create table agenda
 	telefono varchar(11)
  );
 
- exec sp_tables @table_owner='dbo'
+exec sp_tables @table_owner='dbo';
+
+exec sp_columns agenda;
