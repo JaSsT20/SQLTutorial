@@ -8,3 +8,5 @@ create table agenda
 	domicilio varchar(30),
 	telefono varchar(11)
  );
+
+ exec sp_tables @table_owner='dbo'
