@@ -8,3 +8,9 @@ create table libros(
 	autor varchar(30),
 	editorial varchar(15)
 );
+
+create table libros(
+  titulo varchar(20),
+  autor varchar(30),
+  editorial varchar(15)
+ );
